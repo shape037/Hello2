@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>타이틀 영역</title>
+</head>
+<body>
+<h1>바디 영역</h1>
+<h5>나는 슈퍼 개발자야!!</h5>
+
+<form action="getdata.jsp" method="POST">
+	너는 누구? &nbsp;<input type="text" name="nugu"><br>
+	여긴 어디? &nbsp;<input type="text" name="adi"><br>
+	오늘 머 먹지? <input type="text" name="mukgi" value="맘터"><br>
+	오늘 축구 몇대몇?<br>
+	팀명<input type="text" name="team1" value="대한민국"><br>
+	점수<input type="number" name="jumsu1"><br> 
+	대 <br>
+	팀명<input type="text" name="team2" value="보스니아"><br>
+	점수<input type="number" name="jumsu2"><br>
+	
+	<input type="submit" value="보내기">
+</form>
+</body>
+</html>
+
+<br>
+<a href="http://localhost/Hello2/getdata.jsp?nugu=%EC%8A%88%ED%8D%BC%EA%B0%9C%EB%B0%9C%EC%9E%90&adi=%ED%95%99%EA%B5%90&mukgi=%EB%A7%98%ED%84%B0">Get 데이터</a>
